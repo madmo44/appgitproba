@@ -9,6 +9,7 @@ using appgitproba.Models;
 
 namespace appgitproba.Controllers
 {
+    [Authorize]
     public class CarController : Controller
     {
         private CarDB db = new CarDB();
